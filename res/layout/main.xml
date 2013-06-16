@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/ui"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true" 
+    android:windowNoTitle="true"
+    android:background="@color/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:touchmusic="http://schemas.android.com/apk/res/com.touchmusicfree"
+    android:orientation="vertical" >
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+  style="@style/TMTA"
+  android:id="@+id/artist"
+  android:text="@string/artist"
+  android:layout_y="50dip"/>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+  style="@style/TMTA"
+  android:id="@+id/playerstatus"
+  android:text="@string/playerstatus"
+  android:layout_y="270dip"/>
+
+<!-- <ImageView -->
+<!-- 	 android:id="@+id/album_art" -->
+<!-- 	 android:layout_width="100dip" -->
+<!--     android:layout_height="100dip" -->
+<!--     android:background="@android:color/black" --> 
+<!--     android:layout_y="180dip"/> -->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+  style="@style/TMTA"
+  android:id="@+id/length"
+  android:text="@string/length"
+  android:layout_y="290dip"/>
+
+<ProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/slider"
+  android:layout_width="fill_parent"
+  android:layout_height="30dip"
+  android:layout_centerHorizontal="true"
+  android:layout_y="330dip"
+  android:progressDrawable="@android:drawable/progress_horizontal"
+  style="?android:attr/progressBarStyleHorizontal"/>
+ 
+ <com.admob.android.ads.AdView  
+  android:id="@+id/ad" 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content"
+  touchmusic:backgroundColor="#000000"
+  touchmusic:textColor="#FFFFFF"
+  touchmusic:keywords="Music, Songs" />
+ 
+ 
+</AbsoluteLayout>

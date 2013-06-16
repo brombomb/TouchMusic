@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<CheckBoxPreference
+		android:key="invHoriz"
+		android:title="Invert Horizontal"
+		android:summary="Flip Next/Prev Track"
+		android:defaultValue="false" />
+<CheckBoxPreference
+		android:key="invVert"
+		android:title="Invert Vertical"
+		android:summary="Flip Forward/Backward Seek"
+		android:defaultValue="false" />
+<CheckBoxPreference
+		android:key="forceLand"
+		android:title="Force Landscape"
+		android:summary="Force Rotated View (must restart)"
+		android:defaultValue="false" />
+<ListPreference
+		android:key="seekTime"
+        android:title="Seek Time"
+        android:summary="How far you seek forward/backward"
+        android:entries="@array/settings_Time"
+        android:entryValues="@array/settings_Time"
+        android:dialogTitle="Time To Seek" />
+<ListPreference
+		android:key="restartTime"
+        android:title="Restart Time"
+        android:summary="How long you have to restart a song"
+        android:entries="@array/settings_Time"
+        android:entryValues="@array/settings_Time"
+        android:dialogTitle="Time To Restart" />
+</PreferenceScreen>

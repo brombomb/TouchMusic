@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="artist"></string>
+<string name="length"></string>
+<string name="playerstatus"></string>
+<string name="app_name">TouchMusic!</string>
+<string name="menu_settings">Settings</string>
+<string name="menu_quit">Quit</string>
+<string name="settings_InvVert">Invert Vertical</string>
+<string name="settings_InvHoriz">Invert Horizontal</string>
+<string name="settings_ForceLand">Force Landscape</string>
+<string-array name="settings_Time"><item>5</item>
+<item>10</item>
+<item>15</item>
+<item>30</item>
+<item>60</item>
+</string-array>
+<string name="settings_FastForward">Fast Forward</string>
+<string name="settings_Restart">Restart</string>
+<string name="menu_save">Save</string>
+</resources>
